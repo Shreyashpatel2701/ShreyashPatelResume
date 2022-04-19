@@ -1,0 +1,42 @@
+.container {
+  max-width: 960px;
+}
+.WriteImage{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+body
+{
+  margin :0;
+  padding: 0;
+}
+.button{
+  background-color:#B1D0E0;
+}
+.link{
+  color:rgb(21, 151, 129)
+}
+a:hover{
+  color:#B1D0E0;
+}
+input:checked {
+border: 2px solid green;
+background-color: green;
+}
+radio{
+background-color: green;
+}

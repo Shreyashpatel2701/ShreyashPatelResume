@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyash Patel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+ 
+ <!-- Custom styles for this template -->
+ <link href="carousel.css" rel="stylesheet">
+ <link href="footers.css" rel="stylesheet">
+
+</head>
+<style>
+ 
+  .WriteImage{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  body
+  {
+    margin :0;
+    padding: 0;
+  }
+  .button{
+    background-color:#B1D0E0;
+  }
+  .link{
+    color:rgb(21, 151, 129)
+  }
+  a:hover{
+    color:#B1D0E0;
+  }
+  i{
+    align-content: center;
+  }
+ a{
+   color:#b1e0d4;
+ }
+ h1{
+   color:green;
+ }
+ h2{
+   padding-left: 5px;;
+   
+ }
+ svg,i{
+   padding-left: 10px;
+   text-align: center;
+   margin:0 auto;
+   align-content: center;
+   align-self: center;
+   align-items: center;
+ }
+ .heading{
+   color: turquoise;
+ }
+ h4{
+   padding-bottom: 5px;
+   color: rgb(123, 202, 185);
+   text-align: center;
+ }
+ p{
+   text-align: justify;
+ }
+ .float{
+  flex:1;
+  display: flex;
+ }
+ .float:hover{
+   flex-grow: 2;
+   display: flex;
+ }
+ .skill-details{
+  display: none;
+ }
+ .skill-details2{
+  display: none;
+ }
+ 
+ 
+ 
+</style>
+
+<body>
+  <nav  class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <a class="navbar-brand" href="#">
+        <img src="Gallery/Me.jpg" alt="" width="60" height="50" class="bd-placeholder-img bd-placeholder-img rounded-circle" >
+      </a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Shreyash Patel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Education.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Skills.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extracurricular.html">Extra Curricular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact me</a>
+          </li>
+         
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+        <section class="bg-dark text-white">
+        <main>
+          <h1 class="visually-hidden">Skills </h1>
+          <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom heading">Programming Languages</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 ">
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                   <img alt="svgImg" src="https://img.icons8.com/color/2x/kotlin.png" height="75" width="80">
+                  <!--<i class="fab fa-python fa-5x" style = "border: black ;border-width: 2px; " ></i>-->
+                </div>
+                <h2>Java And Kotlin</h2>
+                <p>My favourite programming languages are Java and Kotlin. I've worked on a number of projects with this language. Aside from that, I am well-versed in <strong> Flutter and Android development </strong></p>
+                <a  target = blank href="https://github.com/Shreyashpatel2701" class="icon-link">
+                 Visit Git-hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                 <img alt="" src="https://img.icons8.com/stickers/2x/python.png" height="75" width="80">
+                 
+                </div>
+                <h2 style="padding-top: 2px;">Python</h2>
+                <p>Python is a programming language that I enjoy using. I've worked on a number of AI/ML/DL projects. For web programming, I've also utilised Django. In addition, I have some experience in data visualization and analysis.</p>
+                <a href="https://github.com/Shreyashpatel2701" class="icon-link">
+                  Visit Git-Hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                 <img alt="svgImg" src="https://img.icons8.com/cute-clipart/2x/c.png" height="75" width="80">
+                </div>
+                <h2>C++</h2>
+                <p>I began my career as a computer programmer by learning to code in this language. I also have some programming experience in basic C. </p>
+                 <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container px-4 py-5" id="featured-4">
+            <h2 class="pb-2 border-bottom heading">Core Competency</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                  
+                  <img alt="svgImg" src="https://img.icons8.com/external-photo3ideastudio-gradient-photo3ideastudio/2x/external-ai-digital-business-photo3ideastudio-gradient-photo3ideastudio.png" height="75" width="80">
+                </div>
+                <h2>Artificial Intelligence and Machine Learning</h2>
+                <p>The finest of my core technological skills are artificial intelligence and machine learning. Many Machine Learning/Natural Language Processing/Deep Learning tasks have been completed by me. I've worked on a number of projects in this field, and the source code for several of them is available on Github. In this domain, I am constantly curious, eager, and enthusiastic about developing and learning new concepts and technology.  </p>
+                <a  target = blank href="https://github.com/Shreyashpatel2701" class="icon-link">
+                 Visit Git-hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                  <img alt="svgImg" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-web-development-marketing-agency-flaticons-lineal-color-flat-icons-4.png" height="75" width="80">
+                  <!--<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="64" height="64"
+                  viewBox="0 0 172 172"
+                  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M18.8125,2.6875c-7.40944,0 -13.4375,6.02806 -13.4375,13.4375c0,7.40944 6.02806,13.4375 13.4375,13.4375c3.36475,0 6.40624,-1.28782 8.76587,-3.33838l24.87512,18.99622c-0.48644,0.99706 -0.8896,2.0341 -1.11804,3.14941h-19.3584c-1.24969,-6.12213 -6.67693,-10.74475 -13.16455,-10.74475c-7.40944,0 -13.4375,6.02806 -13.4375,13.4375c0,7.40944 6.02806,13.4375 13.4375,13.4375c3.36475,0 6.40624,-1.28782 8.76587,-3.33838l9.6477,7.36963l-9.6477,7.36963c-2.35963,-2.05057 -5.40112,-3.33838 -8.76587,-3.33838c-7.40944,0 -13.4375,6.02806 -13.4375,13.4375c0,7.40944 6.02806,13.4375 13.4375,13.4375c3.36475,0 6.40624,-1.28782 8.76587,-3.33838l9.6477,7.36963l-9.6477,7.36963c-2.35963,-2.05056 -5.40112,-3.33838 -8.76587,-3.33838c-7.40944,0 -13.4375,6.02806 -13.4375,13.4375c0,7.40944 6.02806,13.4375 13.4375,13.4375c6.48762,0 11.91486,-4.62519 13.16455,-10.75h19.3584c0.22844,1.11531 0.63161,2.1576 1.11804,3.15466l-24.87512,18.99097c-2.35963,-2.04788 -5.40112,-3.33313 -8.76587,-3.33313c-7.40944,0 -13.4375,6.02806 -13.4375,13.4375c0,7.40944 6.02806,13.4375 13.4375,13.4375c7.40944,0 13.4375,-6.02806 13.4375,-13.4375c0,-2.10162 -0.52562,-4.06841 -1.39099,-5.84216l24.87512,-18.99097c2.35963,2.04788 5.40112,3.33313 8.76587,3.33313c6.48763,0 11.91486,-4.62519 13.16455,-10.75h13.71045v5.375c0,4.44513 3.61737,8.0625 8.0625,8.0625c4.44513,0 8.0625,-3.61737 8.0625,-8.0625h4.26221l31.46265,31.46265c0.50256,0.50525 1.18796,0.78735 1.90015,0.78735h5.86841c1.11263,3.12019 4.06997,5.375 7.56909,5.375c4.44513,0 8.0625,-3.61737 8.0625,-8.0625c0,-4.44513 -3.61737,-8.0625 -8.0625,-8.0625c-3.49912,0 -6.45647,2.25481 -7.56909,5.375h-4.75562l-31.46265,-31.46265c-0.50256,-0.50525 -1.18796,-0.78735 -1.90015,-0.78735h-5.375v-8.0625h12.32471l20.71265,20.71265c0.50256,0.50525 1.18796,0.78735 1.90015,0.78735h8.55591c1.11263,3.12019 4.06997,5.375 7.56909,5.375c4.44513,0 8.0625,-3.61737 8.0625,-8.0625c0,-4.44513 -3.61737,-8.0625 -8.0625,-8.0625c-3.49912,0 -6.45647,2.25481 -7.56909,5.375h-7.44312l-20.71265,-20.71265c-0.50256,-0.50525 -1.18796,-0.78735 -1.90015,-0.78735h-13.4375v-8.0625h23.07471l9.96265,9.96265c0.50256,0.50525 1.18796,0.78735 1.90015,0.78735h8.55591c1.11263,3.12019 4.06997,5.375 7.56909,5.375c4.44513,0 8.0625,-3.61737 8.0625,-8.0625c0,-4.44513 -3.61737,-8.0625 -8.0625,-8.0625c-3.49912,0 -6.45647,2.25481 -7.56909,5.375h-7.44312l-9.96265,-9.96265c-0.50256,-0.50525 -1.18796,-0.78735 -1.90015,-0.78735h-24.1875v-8.0625h43.49341c1.11263,3.12019 4.06997,5.375 7.56909,5.375c4.44513,0 8.0625,-3.61737 8.0625,-8.0625c0,-4.44513 -3.61737,-8.0625 -8.0625,-8.0625c-3.49912,0 -6.45647,2.25481 -7.56909,5.375h-43.49341v-8.0625h24.1875c0.71219,0 1.39758,-0.2821 1.90015,-0.78735l9.96265,-9.96265h7.44312c1.11263,3.12019 4.06997,5.375 7.56909,5.375c4.44513,0 8.0625,-3.61737 8.0625,-8.0625c0,-4.44512 -3.61737,-8.0625 -8.0625,-8.0625c-3.49912,0 -6.45647,2.25481 -7.56909,5.375h-8.55591c-0.71219,0 -1.39758,0.2821 -1.90015,0.78735l-9.96265,9.96265h-23.07471v-8.0625h13.4375c0.71219,0 1.39758,-0.2821 1.90015,-0.78735l20.71265,-20.71265h7.44312c1.11263,3.12019 4.06997,5.375 7.56909,5.375c4.44513,0 8.0625,-3.61738 8.0625,-8.0625c0,-4.44512 -3.61737,-8.0625 -8.0625,-8.0625c-3.49912,0 -6.45647,2.25481 -7.56909,5.375h-8.55591c-0.71219,0 -1.39758,0.2821 -1.90015,0.78735l-20.71265,20.71265h-12.32471v-8.0625h5.375c0.71219,0 1.39758,-0.2821 1.90015,-0.78735l31.46265,-31.46265h4.75562c1.11263,3.12019 4.06997,5.375 7.56909,5.375c4.44513,0 8.0625,-3.61737 8.0625,-8.0625c0,-4.44512 -3.61737,-8.0625 -8.0625,-8.0625c-3.49912,0 -6.45647,2.25481 -7.56909,5.375h-5.86841c-0.71219,0 -1.39758,0.2821 -1.90015,0.78735l-31.46265,31.46265h-4.26221v-2.6875c0,-4.44512 -3.61737,-8.0625 -8.0625,-8.0625c-4.44513,0 -8.0625,3.61738 -8.0625,8.0625v8.0625h-13.71045c-1.24969,-6.12481 -6.67424,-10.75 -13.16455,-10.75c-3.36475,0 -6.40624,1.28782 -8.76587,3.33838l-24.87512,-18.99622c0.86538,-1.77644 1.39099,-3.74054 1.39099,-5.84216c0,-7.40944 -6.02806,-13.4375 -13.4375,-13.4375zM18.8125,8.0625c4.44513,0 8.0625,3.61738 8.0625,8.0625c0,4.44513 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61737 -8.0625,-8.0625c0,-4.44512 3.61738,-8.0625 8.0625,-8.0625zM158.5625,10.75c1.48081,0 2.6875,1.204 2.6875,2.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875zM158.5625,34.9375c1.48081,0 2.6875,1.204 2.6875,2.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875zM99.4375,37.625c1.48081,0 2.6875,1.204 2.6875,2.6875v88.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875v-88.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875zM18.8125,43c4.44513,0 8.0625,3.61738 8.0625,8.0625c0,4.44512 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61738 -8.0625,-8.0625c0,-4.44512 3.61738,-8.0625 8.0625,-8.0625zM64.5,43c4.44513,0 8.0625,3.61738 8.0625,8.0625c0,4.44512 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61738 -8.0625,-8.0625c0,-4.44512 3.61738,-8.0625 8.0625,-8.0625zM31.97705,53.75h19.3584c0.22844,1.11531 0.63161,2.1576 1.11804,3.15466l-10.79724,8.24622l-10.79724,-8.24622c0.48644,-0.99706 0.8896,-2.03935 1.11804,-3.15466zM77.66455,53.75h13.71045v29.5625h-13.71045c-1.24969,-6.12481 -6.67424,-10.75 -13.16455,-10.75c-3.36475,0 -6.40624,1.28782 -8.76587,3.33838l-9.6477,-7.36963l9.6477,-7.36963c2.35963,2.05057 5.40112,3.33838 8.76587,3.33838c6.48763,0 11.91486,-4.62519 13.16455,-10.75zM158.5625,59.125c1.48081,0 2.6875,1.204 2.6875,2.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875zM80.625,61.8125v5.375h5.375v-5.375zM41.65625,71.91687l10.79724,8.24097c-0.48644,0.99706 -0.8896,2.03935 -1.11804,3.15466h-19.3584c-0.22844,-1.11531 -0.63161,-2.1576 -1.11804,-3.15466zM80.625,72.5625v5.375h5.375v-5.375zM18.8125,77.9375c4.44513,0 8.0625,3.61737 8.0625,8.0625c0,4.44513 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61737 -8.0625,-8.0625c0,-4.44513 3.61738,-8.0625 8.0625,-8.0625zM64.5,77.9375c4.44513,0 8.0625,3.61737 8.0625,8.0625c0,4.44513 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61737 -8.0625,-8.0625c0,-4.44513 3.61738,-8.0625 8.0625,-8.0625zM158.5625,83.3125c1.48081,0 2.6875,1.204 2.6875,2.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875zM31.97705,88.6875h19.3584c0.22844,1.11531 0.63161,2.1576 1.11804,3.15466l-10.79724,8.24622l-10.79724,-8.24622c0.48644,-0.99706 0.8896,-2.03935 1.11804,-3.15466zM77.66455,88.6875h13.71045v29.5625h-13.71045c-1.24969,-6.12481 -6.67424,-10.75 -13.16455,-10.75c-3.36475,0 -6.40624,1.28782 -8.76587,3.33838l-9.6477,-7.36963l9.6477,-7.36963c2.35963,2.05056 5.40112,3.33838 8.76587,3.33838c6.48763,0 11.91486,-4.62519 13.16455,-10.75zM80.625,94.0625v5.375h5.375v-5.375zM80.625,104.8125v5.375h5.375v-5.375zM41.65625,106.85437l10.79724,8.24097c-0.48644,0.99706 -0.8896,2.03935 -1.11804,3.15466h-19.3584c-0.22844,-1.11531 -0.63161,-2.1576 -1.11804,-3.15466zM158.5625,107.5c1.48081,0 2.6875,1.204 2.6875,2.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875zM18.8125,112.875c4.44513,0 8.0625,3.61737 8.0625,8.0625c0,4.44513 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61737 -8.0625,-8.0625c0,-4.44513 3.61738,-8.0625 8.0625,-8.0625zM64.5,112.875c4.44513,0 8.0625,3.61737 8.0625,8.0625c0,4.44513 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61737 -8.0625,-8.0625c0,-4.44513 3.61738,-8.0625 8.0625,-8.0625zM158.5625,131.6875c1.48081,0 2.6875,1.204 2.6875,2.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875zM18.8125,147.8125c4.44513,0 8.0625,3.61737 8.0625,8.0625c0,4.44513 -3.61737,8.0625 -8.0625,8.0625c-4.44512,0 -8.0625,-3.61737 -8.0625,-8.0625c0,-4.44513 3.61738,-8.0625 8.0625,-8.0625zM158.5625,155.875c1.48081,0 2.6875,1.204 2.6875,2.6875c0,1.4835 -1.20669,2.6875 -2.6875,2.6875c-1.48081,0 -2.6875,-1.204 -2.6875,-2.6875c0,-1.4835 1.20669,-2.6875 2.6875,-2.6875z"></path></g></g></svg>-->
+                </div>
+                <h2 style="padding-top: 2px;">Mobile and Web Development</h2>
+                <p>I've performed a number of industrial projects and internships in this field, and I've created over six mobile applications and two websites for a variety of organisations. I am an expert in developing mobile and web applications. How to Manage the Development of Mobile and Web Applications</p>
+                <a href="https://github.com/Shreyashpatel2701" class="icon-link">
+                  Visit Git-Hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                  
+                  <img alt="svgImg" src="https://img.icons8.com/office/2x/parallel-tasks.png" height="75" width="80">
+                </div>
+                <h2>Data Structures and Algorithms</h2>
+                <p>Every <strong>Computer Programmer</strong> must acquire DSA as one of the most important skills. Data-Structures-and-Algorithms are something I'm highly familiar with because they're employed in almost every project.<em> (Mobile,WEB,AI/ML/DL)</em></p>
+                <a href="https://github.com/Shreyashpatel2701" class="icon-link">
+                  Visit Git-Hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container px-4 py-5" id="featured-5">
+            <h2 class="pb-2 border-bottom heading"></h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                  
+                  <img alt="svgImg" src="https://img.icons8.com/external-phatplus-lineal-color-phatplus/2x/external-database-management-computing-network-phatplus-lineal-color-phatplus.png" height="75" width="80">
+                </div>
+                <h2>Database Management systems</h2>
+                <p>Because data is the new oil, data storage and management are critical. t I am an expert in data management systems like Firebase, MySQL, PostgreSQL, and MongoDB, and I use databases in every project I've worked on. I also have experience with data analysis and visualisation, which aids in better identifying patterns.</p>
+                <a  target = blank href="https://github.com/Shreyashpatel2701" class="icon-link">
+                 Visit Git-hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                  
+                  <img alt="svgImg" src="https://img.icons8.com/external-flat-satawat-anukul/2x/external-designthinking-design-thinking-flat-flat-satawat-anukul-35.png" height="75" width="80">
+                </div>
+                <h2 style="padding-top: 2px;">User Interface and Experience(UI/UX)</h2>
+                <p>I've recently gained a true interest in this domain, as evidenced by my participation in several projects. On my Github account, I have uploaded all of the source codes for my academic and personal projects.
+                  I finished Google's ui and ux development course.</p>
+                <a href="https://github.com/Shreyashpatel2701" class="icon-link">
+                  Visit Git-Hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon bg-dark bg-gradient">
+                  
+                  <img alt="svgImg" src="https://img.icons8.com/external-becris-lineal-color-becris/2x/external-programmer-coding-programming-becris-lineal-color-becris.png" height="75" width="80">
+                </div>
+                <h2>Java/python/kotlin Programming</h2>
+                 <p>As a result of my strong grasp of programming fundamentals, I am able to quickly learn any new programming language or technology required by a project</p>
+                <a href="https://github.com/Shreyashpatel2701" class="icon-link">
+                  Visit Git-Hub
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+        
+            
+       
+        
+          <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 border-bottom heading">Non-Technical Skills</h2>
+        
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 animated-div">
+              
+               <div class="col d-flex align-items-start skill ">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+                <div >
+                  <h4 class="fw-bold mb-0">Communication</h4>
+                  <p class = "skill-details">I have exceptional communication abilities. I am fluent in four languages: English, Gujarathi, Hindi, and Marathi. I've also hosted a number of school-based events as well as a few online college-based seminars.
+                  </p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start skill ">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+                <div >
+                  <h4 class="fw-bold mb-0 ">Learning Attitude</h4>
+                  <p class = "skill-details">My grasping ability is also quite strong. As a result, I am able to acquire valuable skills swiftly and have a positive mindset towards learning. As a result of this approach, I am ahead of my peers. especially in the technical field</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start skill">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+                <div >
+                  <h4 class="fw-bold mb-0 ">Innovation</h4>
+                  <p class = "skill-details">I've always wanted to create innovative applications and conduct study into how new technology may be developed. This is also displayed in my portfolio because I am now working on a patent application for a project that was led by a professor at San Jose State University, and I also own the rights to a mobile application that I developed.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start skill">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+                <div >
+                  <h4 class="fw-bold mb-0 ">MS - Office</h4>
+                  <p class = "skill-details"> I am proficient in all Microsoft office programmes, including Word, PowerPoint, Excel, and OneNote. I utilise all of the softwares precisely and have already prepared many reports, PowerPoint presentations, Excel spreadsheets, and OneNote Notebooks. </p>
+                </div>
+              </div>
+          
+              <div class="col d-flex align-items-start skill2">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+                <div>
+                  <h4 class="fw-bold mb-0" >Management</h4>
+                  <p class = "skill-details2">I am competent at understanding people and their emotions, which allows me to communicate effectively with my team. I appreciate and care for other's feelings. As the head of the UWAV VIIT AI research team, I have some leadership experience.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start skill2">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+                <div >
+                  <h4 class="fw-bold mb-0 ">Problem Solving</h4>
+                  <p class = "skill-details2">One of the most important components of my life is problem solving and maintaining a positive mental attitude. I'm impromptu trying to come up with a solution to the situation. I'm also strong at coming up with new ideas, which helps me improve my problem-solving skills</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start skill2">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+                <div >
+                  <h4 class="fw-bold mb-0 ">Analytics/Observation </h4>
+                  <p class = "skill-details2">I have an incredible ability to notice new objects and deduce their interfering factors. Which qualifies you to be an excellent data analyst. As previously said, I have strong data visualisation abilities that help me analyse data more effectively.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start skill2">
+                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
+                <div >
+                  <h4 class="fw-bold mb-0 ">Stable Mindset</h4>
+                  <p class = "skill-details2">I have a calm and collected demeanour and am not easily discouraged under any circumstances. I'm always on the lookout for methods to motivate myself through everything I come across. As previously stated, I have excellent analytics and observation abilities, which enable me to learn from my failures.</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </main>
+        
+      </section>
+      
+        
+              
+            
+
+            <div class="bg-dark text-white" style="background-color: black;">
+              
+            </div>          
+             <div class=" bg-dark text-white border-top" style="padding-bottom:1% ;padding-top : 1%">
+               <footer class="py-30">
+                 <div class="col-4 offset-4  justify-content-center nav">
+                   <form>
+                    <h5 style="text-align: center;">Please inform me that you came to see me.</h5>
+                    <p style="text-align: center;" > Please enter your e-mail address in the box below. </p>
+                     <div class="d-flex w-100 gap-2">
+                       <label for="newsletter1" class="visually-hidden">Email address</label>
+                       <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                       <button class="btn btn-success" type="button">Subscribe</button>
+                     </div>
+                   </form>
+                 </div>
+        
+                 <ul class="nav justify-content-center border-bottom pb-4 mb-4" style="padding-top: 1%;">
+                   <li class="nav-item mb-2" style = "margin: 0.5%;"><a  target = blank href="home.html" class="nav-link p-0 text-muted">Home</a></li>
+                   <li class="nav-item mb-2" style = "margin: 0.5%;"><a  target = blank href="Education.html" class="nav-link p-0 text-muted">Education</a></li>
+                   <li class="nav-item mb-2" style = "margin: 0.5%;"><a  target = blank href="Skills.html" class="nav-link p-0 text-muted">Skills</a></li>
+                   <li class="nav-item mb-2" style = "margin: 0.5%;"><a target = blank  href="projects.html" class="nav-link p-0 text-muted">Projects</a></li>
+                   <li class="nav-item mb-2" style = "margin: 0.5%;"><a  target = blank href="Experience.html" class="nav-link p-0 text-muted">Experience</a></li>
+                   <li class="nav-item mb-2" style = "margin: 0.5%;"><a  target = blank href="extracurricular.html" class="nav-link p-0 text-muted">Extra Curricular</a></li>
+                   <li class="nav-item mb-2" style = "margin: 0.5%;"><a target = blank  href="contact.html" class="nav-link p-0 text-muted">Contact me</a></li>
+                 </ul>
+                 </ul>
+                 <div class=" px-10  py-24 mx-auto center text-center">
+                 <span class="inline-flex">
+                  <a class="ml-4 text-gray-500 link" target="blank" href = "https://twitter.com/Beardsmartie261">
+                    <i class="fab fa-twitter  link fa-1x"></i>
+                  </a>
+                  <a class="ml-4 text-gray-500 link" target="blank" href = "https://www.instagram.com/beardsmartie2601/">
+                    <i class="fab fa-instagram  link fa-1x"></i>
+                
+                 
+                   </a>
+                  <a class="ml-4 text-gray-500 link" target = "blank" href = "https://github.com/Shreyashpatel2701">
+                    <i class="  fab fa-github link fa-1x"></i>
+                  </a>
+                  <a class="ml-4 text-gray-500 link" target = "blank" href = "https://www.linkedin.com/in/shreyash-patel-4980a919b/">
+                    <i class="fab fa-linkedin link fa-1x"></i>
+                  </a>
+                   <a class="ml-4 text-gray-500 link" target = "blank" href = "https://drive.google.com/drive/u/1/folders/1i_TJnGEk_cTZkUnnL9iTWKnLGzHtbR-P">
+                     <i class="fab fa-google-drive link fa-1x"></i>
+                   </a>
+                   
+                  </span>
+                  </div>
+                 <p class="text-center text-muted">&copy; Shreyash Patel</p>
+               </footer>
+             </div>
+             
+</body>
+<script src= "jquery-3.6.0.min.js"></script>
+<script src = "jquery.js"></script>
+<script src="https://kit.fontawesome.com/74c85445c3.js" crossorigin="anonymous"></script>
+</html>
